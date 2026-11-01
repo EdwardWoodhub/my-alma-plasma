@@ -17,10 +17,10 @@ on:
 
 env:
   # OS 系统镜像名（用于系统的 bootc upgrade）
-  IMAGE_NAME: my-plasma-alma-vm
+  IMAGE_NAME: my-alma-plasma-vm
   # ISO 专属镜像仓库名，避免覆盖系统基础镜像
-  ISO_IMAGE_NAME: my-plasma-alma-vm-iso
-  ISO_FILE_NAME: my-plasma-alma-vm
+  ISO_IMAGE_NAME: my-alma-plasma-iso
+  ISO_FILE_NAME: my-alma-plasma-vm
 
 jobs:
   build:
