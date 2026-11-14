@@ -10,6 +10,13 @@
 
 quay.io/almalinuxorg/almalinux-bootc:10 的软件配置文件不知道在哪。
 
+```
+podman run --rm quay.io/almalinuxorg/almalinux-bootc:10 rpm -qa | sort 
+```
+```
+podman rmi quay.io/almalinuxorg/almalinux-bootc:10
+```
+
 # 构建产物
 
 (1) OCI镜像
